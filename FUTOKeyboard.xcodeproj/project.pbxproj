@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13C1893E070A486F9DA82F0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAB05B5B0A17E470BF7B4AB3 /* Assets.xcassets */; };
+		2180C504BFE71D4C0B13D365 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0EC1DD22C59D7509AB5E82 /* SettingsView.swift */; };
+		24527A9451FF744670981DB1 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348539050A18890F7F35E09D /* KeyboardViewController.swift */; };
+		2C87084E465C914022665ABC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CC46B21242A8F300288D149 /* Foundation.framework */; };
+		35703501A99FF762E96E5EE7 /* KeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F550356C0CA7EF05687DDB8 /* KeyboardView.swift */; };
+		3A01A7F3633BDA8BD16933D7 /* DictationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DF9F6B9137D2963620B932 /* DictationView.swift */; };
+		41D73974EAAFDB2EC315C9E1 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205C338879B7F1D229070FF4 /* OnboardingView.swift */; };
+		474D24F1FC03B09E017C16E5 /* SuggestionEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69B2A77A484064F21217031 /* SuggestionEngine.swift */; };
+		5AB3E45910CB58E198A1B828 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A216D1B34A73BFAB920DBA1 /* AboutView.swift */; };
+		738B2A3C642BECBD9A7030C7 /* FUTOKeyboardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B646F131CC0F94AFAC6699F /* FUTOKeyboardApp.swift */; };
+		806E7097711328080EF9039F /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B68465FEB1A4B0136752E9E /* DashboardView.swift */; };
+		B99F6B889D342B8BA1D6147D /* ThemesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B08FE397E441AF0E6027770 /* ThemesView.swift */; };
+		C479DC269A2F8A15EF6D880B /* KeyboardLayouts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CDD0DDA0C11FAD8ED6719A /* KeyboardLayouts.swift */; };
+		DB6330F32667C1F6B18EEFAE /* FUTOKeyboardExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 23533B38F98D29B16AB7C3ED /* FUTOKeyboardExtension.appex */; };
+		EC1088E9D52476D5F3E9D1AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CC46B21242A8F300288D149 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE4D25492EB9ABC7861144D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EBF89F0915E305E6E318B0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68281FFAF0C0A9F7529E76AD;
+			remoteInfo = FUTOKeyboardExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		120914EAD56836201C4791BF /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DB6330F32667C1F6B18EEFAE /* FUTOKeyboardExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0A216D1B34A73BFAB920DBA1 /* AboutView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AboutView.swift; path = FUTOKeyboard/AboutView.swift; sourceTree = "<group>"; };
+		0B08FE397E441AF0E6027770 /* ThemesView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThemesView.swift; path = FUTOKeyboard/ThemesView.swift; sourceTree = "<group>"; };
+		0B646F131CC0F94AFAC6699F /* FUTOKeyboardApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FUTOKeyboardApp.swift; path = FUTOKeyboard/FUTOKeyboardApp.swift; sourceTree = "<group>"; };
+		205C338879B7F1D229070FF4 /* OnboardingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OnboardingView.swift; path = FUTOKeyboard/OnboardingView.swift; sourceTree = "<group>"; };
+		23533B38F98D29B16AB7C3ED /* FUTOKeyboardExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = FUTOKeyboardExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		29288B1C99EF99B0D46417E7 /* FUTOKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FUTOKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		348539050A18890F7F35E09D /* KeyboardViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardViewController.swift; path = FUTOKeyboardExtension/KeyboardViewController.swift; sourceTree = "<group>"; };
+		3B68465FEB1A4B0136752E9E /* DashboardView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DashboardView.swift; path = FUTOKeyboard/DashboardView.swift; sourceTree = "<group>"; };
+		3F550356C0CA7EF05687DDB8 /* KeyboardView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardView.swift; path = FUTOKeyboardExtension/KeyboardView.swift; sourceTree = "<group>"; };
+		6C0EC1DD22C59D7509AB5E82 /* SettingsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SettingsView.swift; path = FUTOKeyboard/SettingsView.swift; sourceTree = "<group>"; };
+		6CC46B21242A8F300288D149 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		81CDD0DDA0C11FAD8ED6719A /* KeyboardLayouts.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardLayouts.swift; path = FUTOKeyboardExtension/KeyboardLayouts.swift; sourceTree = "<group>"; };
+		B69B2A77A484064F21217031 /* SuggestionEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SuggestionEngine.swift; path = FUTOKeyboardExtension/SuggestionEngine.swift; sourceTree = "<group>"; };
+		E7DF9F6B9137D2963620B932 /* DictationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DictationView.swift; path = FUTOKeyboard/DictationView.swift; sourceTree = "<group>"; };
+		EAB05B5B0A17E470BF7B4AB3 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = FUTOKeyboard/Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E37988C48154B4C414DDA563 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C87084E465C914022665ABC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F904229AF86D680D4519C77D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1088E9D52476D5F3E9D1AB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CC15EA8C40010C4785E06E0 /* FUTOKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				0B646F131CC0F94AFAC6699F /* FUTOKeyboardApp.swift */,
+				3B68465FEB1A4B0136752E9E /* DashboardView.swift */,
+				205C338879B7F1D229070FF4 /* OnboardingView.swift */,
+				6C0EC1DD22C59D7509AB5E82 /* SettingsView.swift */,
+				0B08FE397E441AF0E6027770 /* ThemesView.swift */,
+				E7DF9F6B9137D2963620B932 /* DictationView.swift */,
+				0A216D1B34A73BFAB920DBA1 /* AboutView.swift */,
+				EAB05B5B0A17E470BF7B4AB3 /* Assets.xcassets */,
+			);
+			name = FUTOKeyboard;
+			sourceTree = "<group>";
+		};
+		35F1B21EC2099596F3F0D00C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54E86F36488C414634B8536D /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		54E86F36488C414634B8536D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6CC46B21242A8F300288D149 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9E738CA35DA88545E8D69174 /* FUTOKeyboardExtension */ = {
+			isa = PBXGroup;
+			children = (
+				348539050A18890F7F35E09D /* KeyboardViewController.swift */,
+				3F550356C0CA7EF05687DDB8 /* KeyboardView.swift */,
+				81CDD0DDA0C11FAD8ED6719A /* KeyboardLayouts.swift */,
+				B69B2A77A484064F21217031 /* SuggestionEngine.swift */,
+			);
+			name = FUTOKeyboardExtension;
+			sourceTree = "<group>";
+		};
+		A5A54D34D194641891CE6B75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29288B1C99EF99B0D46417E7 /* FUTOKeyboard.app */,
+				23533B38F98D29B16AB7C3ED /* FUTOKeyboardExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9C030362C7453D192AB780E = {
+			isa = PBXGroup;
+			children = (
+				A5A54D34D194641891CE6B75 /* Products */,
+				35F1B21EC2099596F3F0D00C /* Frameworks */,
+				2CC15EA8C40010C4785E06E0 /* FUTOKeyboard */,
+				9E738CA35DA88545E8D69174 /* FUTOKeyboardExtension */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		074F5A311029CD2D96C8DDF8 /* FUTOKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8252016E6769F15F810C4A47 /* Build configuration list for PBXNativeTarget "FUTOKeyboard" */;
+			buildPhases = (
+				E1B623E883B922ED11133A32 /* Sources */,
+				F904229AF86D680D4519C77D /* Frameworks */,
+				19F8AA7ABA35FE91A5844756 /* Resources */,
+				120914EAD56836201C4791BF /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EED0F01133BD39B73945A3D6 /* PBXTargetDependency */,
+			);
+			name = FUTOKeyboard;
+			productName = FUTOKeyboard;
+			productReference = 29288B1C99EF99B0D46417E7 /* FUTOKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		68281FFAF0C0A9F7529E76AD /* FUTOKeyboardExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4F8D50FDFE58CEFD1C1FFC0 /* Build configuration list for PBXNativeTarget "FUTOKeyboardExtension" */;
+			buildPhases = (
+				95DE94F6ED8270EE6A7D1DF2 /* Sources */,
+				E37988C48154B4C414DDA563 /* Frameworks */,
+				5301583E3E0AEFE5BEA14B1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FUTOKeyboardExtension;
+			productName = FUTOKeyboardExtension;
+			productReference = 23533B38F98D29B16AB7C3ED /* FUTOKeyboardExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EBF89F0915E305E6E318B0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 2640;
+			};
+			buildConfigurationList = AD491B8A20F9A489F58B534C /* Build configuration list for PBXProject "FUTOKeyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9C030362C7453D192AB780E;
+			productRefGroup = A5A54D34D194641891CE6B75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				074F5A311029CD2D96C8DDF8 /* FUTOKeyboard */,
+				68281FFAF0C0A9F7529E76AD /* FUTOKeyboardExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19F8AA7ABA35FE91A5844756 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13C1893E070A486F9DA82F0A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5301583E3E0AEFE5BEA14B1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95DE94F6ED8270EE6A7D1DF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24527A9451FF744670981DB1 /* KeyboardViewController.swift in Sources */,
+				35703501A99FF762E96E5EE7 /* KeyboardView.swift in Sources */,
+				C479DC269A2F8A15EF6D880B /* KeyboardLayouts.swift in Sources */,
+				474D24F1FC03B09E017C16E5 /* SuggestionEngine.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1B623E883B922ED11133A32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				738B2A3C642BECBD9A7030C7 /* FUTOKeyboardApp.swift in Sources */,
+				806E7097711328080EF9039F /* DashboardView.swift in Sources */,
+				41D73974EAAFDB2EC315C9E1 /* OnboardingView.swift in Sources */,
+				2180C504BFE71D4C0B13D365 /* SettingsView.swift in Sources */,
+				B99F6B889D342B8BA1D6147D /* ThemesView.swift in Sources */,
+				3A01A7F3633BDA8BD16933D7 /* DictationView.swift in Sources */,
+				5AB3E45910CB58E198A1B828 /* AboutView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EED0F01133BD39B73945A3D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FUTOKeyboardExtension;
+			target = 68281FFAF0C0A9F7529E76AD /* FUTOKeyboardExtension */;
+			targetProxy = EE4D25492EB9ABC7861144D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DBE7BB16E550A026F07302E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = FUTOKeyboard/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.futo.keyboard;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3806388A8D7CB365A1E6C9C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		5B1D42A1C4BA467EE056B78C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = FUTOKeyboardExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.futo.keyboard.extension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD1E2AE2C45A1444BBCAD9A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		BEB248C0BF848A07A32F3683 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = FUTOKeyboard/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.futo.keyboard;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DEFEA6541D4FF94010EA8BFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = FUTOKeyboardExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.futo.keyboard.extension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8252016E6769F15F810C4A47 /* Build configuration list for PBXNativeTarget "FUTOKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DBE7BB16E550A026F07302E /* Release */,
+				BEB248C0BF848A07A32F3683 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD491B8A20F9A489F58B534C /* Build configuration list for PBXProject "FUTOKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3806388A8D7CB365A1E6C9C1 /* Debug */,
+				BD1E2AE2C45A1444BBCAD9A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4F8D50FDFE58CEFD1C1FFC0 /* Build configuration list for PBXNativeTarget "FUTOKeyboardExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEFEA6541D4FF94010EA8BFE /* Release */,
+				5B1D42A1C4BA467EE056B78C /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8EBF89F0915E305E6E318B0F /* Project object */;
+}
